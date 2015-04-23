@@ -36,6 +36,7 @@ implementation
 {$R *.NmXhdpiPh.fmx ANDROID}
 {$R *.LgXhdpiTb.fmx ANDROID}
 {$R *.iPhone4in.fmx IOS}
+{$R *.iPhone.fmx IOS}
 
 procedure TForm1.SpeedButton2Click(Sender: TObject);
 begin

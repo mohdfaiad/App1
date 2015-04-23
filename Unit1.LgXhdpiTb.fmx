@@ -9,6 +9,7 @@ inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
     end
     inherited Label1: TLabel
       Size.Width = 480.000000000000000000
+      Text = 'Exemplo Android'
     end
   end
   inherited ListView1: TListView
