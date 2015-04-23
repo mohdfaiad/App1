@@ -37,7 +37,7 @@ object Form1: TForm1
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       TextSettings.HorzAlign = Center
-      Text = 'Label1'
+      Text = 'App1'
     end
   end
   object ListView1: TListView
