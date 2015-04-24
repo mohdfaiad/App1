@@ -4,12 +4,12 @@ inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
   DesignerMasterStyle = 3
   inherited ToolBar1: TToolBar
     Size.Width = 480.000000000000000000
-    inherited SpeedButton2: TSpeedButton
-      Position.X = 432.000000000000000000
-    end
-    inherited Label1: TLabel
+    inherited Label_Titulo: TLabel
       Size.Width = 480.000000000000000000
       Text = 'Exemplo Android'
+    end
+    inherited SpeedButton2: TSpeedButton
+      Position.X = 432.000000000000000000
     end
   end
   inherited ListView1: TListView

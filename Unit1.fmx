@@ -8,12 +8,20 @@ object Form1: TForm1
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
-  DesignerMasterStyle = 3
+  DesignerMasterStyle = 0
   object ToolBar1: TToolBar
     Size.Width = 640.000000000000000000
     Size.Height = 48.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
+    object Label_Titulo: TLabel
+      Align = Contents
+      Size.Width = 640.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'App test (Git)'
+    end
     object SpeedButton1: TSpeedButton
       Align = MostLeft
       Size.Width = 48.000000000000000000
@@ -28,16 +36,8 @@ object Form1: TForm1
       Size.Width = 48.000000000000000000
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
-      StyleLookup = 'actiontoolbutton'
+      StyleLookup = 'nexttoolbutton'
       Text = 'SpeedButton2'
-    end
-    object Label1: TLabel
-      Align = Contents
-      Size.Width = 640.000000000000000000
-      Size.Height = 48.000000000000000000
-      Size.PlatformDefault = False
-      TextSettings.HorzAlign = Center
-      Text = 'App1'
     end
   end
   object ListView1: TListView

@@ -4,14 +4,14 @@ inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
   DesignerMasterStyle = 3
   inherited ToolBar1: TToolBar
     Size.Width = 400.000000000000000000
-    inherited SpeedButton2: TSpeedButton
-      Position.X = 352.000000000000000000
-      OnClick = SpeedButton2Click
-    end
-    inherited Label1: TLabel
+    inherited Label_Titulo: TLabel
       Align = Center
       TextSettings.WordWrap = False
       Text = 'App Delphi exemplo'
+    end
+    inherited SpeedButton2: TSpeedButton
+      Position.X = 352.000000000000000000
+      OnClick = SpeedButton2Click
     end
   end
   inherited ListView1: TListView

@@ -5,6 +5,11 @@ inherited Form1_iPhone: TForm1_iPhone
   inherited ToolBar1: TToolBar
     Size.Width = 320.000000000000000000
     Size.Height = 44.000000000000000000
+    inherited Label_Titulo: TLabel
+      Size.Width = 320.000000000000000000
+      Size.Height = 44.000000000000000000
+      Text = 'Exemplo iOS'
+    end
     inherited SpeedButton1: TSpeedButton
       Size.Width = 44.000000000000000000
       Size.Height = 44.000000000000000000
@@ -13,11 +18,6 @@ inherited Form1_iPhone: TForm1_iPhone
       Position.X = 276.000000000000000000
       Size.Width = 44.000000000000000000
       Size.Height = 44.000000000000000000
-    end
-    inherited Label1: TLabel
-      Size.Width = 320.000000000000000000
-      Size.Height = 44.000000000000000000
-      Text = 'Exemplo iOS'
     end
   end
   inherited ListView1: TListView

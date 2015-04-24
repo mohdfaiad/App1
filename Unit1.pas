@@ -19,12 +19,13 @@ type
     LinkFillControlToField1: TLinkFillControlToField;
     SpeedButton1: TSpeedButton;
     SpeedButton2: TSpeedButton;
-    Label1: TLabel;
+    Label_Titulo: TLabel;
     procedure SpeedButton2Click(Sender: TObject);
   private
     { Private declarations }
   public
     { Public declarations }
+    procedure Somar;
   end;
 
 var
@@ -37,6 +38,18 @@ implementation
 {$R *.LgXhdpiTb.fmx ANDROID}
 {$R *.iPhone4in.fmx IOS}
 {$R *.iPhone.fmx IOS}
+
+procedure TForm1.Somar;
+var
+  k, x: integer;
+  s: string;
+begin
+  k := 0;
+  x := k + 100;
+  if k = 0 and x = 0 then
+     ShowMessage(s);
+
+end;
 
 procedure TForm1.SpeedButton2Click(Sender: TObject);
 begin
