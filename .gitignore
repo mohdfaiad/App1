@@ -1,0 +1,5 @@
+*.~*
+App1.identcache
+App1.stat
+*.dcu
+*.exe

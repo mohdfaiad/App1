@@ -25,7 +25,7 @@ type
     { Private declarations }
   public
     { Public declarations }
-    procedure Somar;
+    procedure Somar(a, b: integer);
   end;
 
 var
@@ -39,15 +39,15 @@ implementation
 {$R *.iPhone4in.fmx IOS}
 {$R *.iPhone.fmx IOS}
 
-procedure TForm1.Somar;
+procedure TForm1.Somar(a,b :integer);
 var
   k, x: integer;
   s: string;
 begin
   k := 0;
   x := k + 100;
-  if k = 0 and x = 0 then
-     ShowMessage(s);
+//  if k = 0 and x = 0 then
+//     ShowMessage(s);
 
 end;
 

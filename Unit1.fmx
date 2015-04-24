@@ -4,7 +4,7 @@ object Form1: TForm1
   Caption = 'Form1'
   ClientHeight = 480
   ClientWidth = 640
-  Position = Designed
+  Position = ScreenCenter
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -20,7 +20,7 @@ object Form1: TForm1
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       TextSettings.HorzAlign = Center
-      Text = 'App test (Git)'
+      Text = 'App, GitHub !!!'
     end
     object SpeedButton1: TSpeedButton
       Align = MostLeft
