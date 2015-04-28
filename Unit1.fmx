@@ -27,7 +27,7 @@ object Form1: TForm1
       Size.Width = 48.000000000000000000
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
-      StyleLookup = 'cameratoolbutton'
+      StyleLookup = 'actiontoolbutton'
       Text = 'SpeedButton1'
     end
     object SpeedButton2: TSpeedButton
