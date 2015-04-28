@@ -21,6 +21,10 @@ inherited Form1_iPhone4in: TForm1_iPhone4in
   end
   inherited ListView1: TListView
     Size.Width = 320.000000000000000000
-    Size.Height = 504.000000000000000000
+    Size.Height = 384.000000000000000000
+  end
+  inherited Panel1: TPanel
+    Position.Y = 428.000000000000000000
+    Size.Width = 320.000000000000000000
   end
 end

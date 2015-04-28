@@ -21,6 +21,7 @@ type
     SpeedButton2: TSpeedButton;
     Label_Titulo: TLabel;
     SpeedButton3: TSpeedButton;
+    Panel1: TPanel;
     procedure SpeedButton2Click(Sender: TObject);
   private
     { Private declarations }

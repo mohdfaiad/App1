@@ -16,6 +16,10 @@ inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
   end
   inherited ListView1: TListView
     Size.Width = 400.000000000000000000
-    Size.Height = 567.000000000000000000
+    Size.Height = 447.000000000000000000
+  end
+  inherited Panel1: TPanel
+    Position.Y = 495.000000000000000000
+    Size.Width = 400.000000000000000000
   end
 end
