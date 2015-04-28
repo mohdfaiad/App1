@@ -20,7 +20,7 @@ object Form1: TForm1
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       TextSettings.HorzAlign = Center
-      Text = 'App, GitHub !!!'
+      Text = 'Lista de Contatos'
     end
     object SpeedButton1: TSpeedButton
       Align = MostLeft
@@ -36,7 +36,7 @@ object Form1: TForm1
       Size.Width = 48.000000000000000000
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
-      StyleLookup = 'nexttoolbutton'
+      StyleLookup = 'refreshtoolbutton'
       Text = 'SpeedButton2'
     end
   end
