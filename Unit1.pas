@@ -39,6 +39,7 @@ implementation
 {$R *.LgXhdpiTb.fmx ANDROID}
 {$R *.iPhone4in.fmx IOS}
 {$R *.iPhone.fmx IOS}
+{$R *.iPhone47in.fmx IOS}
 
 procedure TForm1.Somar(a,b :integer);
 var
