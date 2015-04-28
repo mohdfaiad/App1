@@ -51,6 +51,11 @@ object Form1: TForm1
     Size.PlatformDefault = False
     TabOrder = 1
     SearchVisible = True
+    object SpeedButton3: TSpeedButton
+      Position.X = 248.000000000000000000
+      Position.Y = 72.000000000000000000
+      Text = 'SpeedButton3'
+    end
   end
   object PrototypeBindSource1: TPrototypeBindSource
     AutoActivate = True
