@@ -14,10 +14,15 @@ inherited Form1_LgXhdpiTb: TForm1_LgXhdpiTb
   end
   inherited ListView1: TListView
     Size.Width = 480.000000000000000000
-    Size.Height = 661.000000000000000000
+    Size.Height = 589.000000000000000000
   end
   inherited Panel1: TPanel
-    Position.Y = 709.000000000000000000
+    Position.Y = 637.000000000000000000
     Size.Width = 480.000000000000000000
+    inherited Calendar1: TCalendar
+      Position.Y = 8.000000000000000000
+      Size.Width = 346.000000000000000000
+      Size.Height = 300.000000000000000000
+    end
   end
 end

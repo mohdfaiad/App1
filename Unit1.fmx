@@ -47,7 +47,7 @@ object Form1: TForm1
     FooterAppearanceClassName = 'TListHeaderObjects'
     Align = Client
     Size.Width = 640.000000000000000000
-    Size.Height = 312.000000000000000000
+    Size.Height = 240.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
     SearchVisible = True
@@ -59,11 +59,19 @@ object Form1: TForm1
   end
   object Panel1: TPanel
     Align = Bottom
-    Position.Y = 360.000000000000000000
+    Position.Y = 288.000000000000000000
     Size.Width = 640.000000000000000000
-    Size.Height = 120.000000000000000000
+    Size.Height = 192.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 5
+    object Calendar1: TCalendar
+      Date = 42122.000000000000000000
+      Position.X = 8.000000000000000000
+      Size.Width = 202.000000000000000000
+      Size.Height = 180.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
   end
   object PrototypeBindSource1: TPrototypeBindSource
     AutoActivate = True

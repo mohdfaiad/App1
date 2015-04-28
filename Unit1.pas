@@ -8,7 +8,7 @@ uses
   FMX.ListView.Types, Fmx.Bind.GenData, Data.Bind.GenData, System.Rtti,
   System.Bindings.Outputs, Fmx.Bind.Editors, Data.Bind.EngExt,
   Fmx.Bind.DBEngExt, FMX.StdCtrls, Data.Bind.Components, Data.Bind.ObjectScope,
-  FMX.ListView, FMX.Controls.Presentation;
+  FMX.ListView, FMX.Controls.Presentation, FMX.Calendar;
 
 type
   TForm1 = class(TForm)
@@ -22,6 +22,7 @@ type
     Label_Titulo: TLabel;
     SpeedButton3: TSpeedButton;
     Panel1: TPanel;
+    Calendar1: TCalendar;
     procedure SpeedButton2Click(Sender: TObject);
   private
     { Private declarations }
